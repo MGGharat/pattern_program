@@ -1,0 +1,8 @@
+#Program to print inverted full pyramid using *
+r = int(input("Enter The No Of Rows - "))
+for i in range (r):
+    for j in range (i):
+        print(" ", end="")
+    for k in range (i , r):
+        print(" * ", end="")
+    print()

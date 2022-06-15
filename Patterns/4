@@ -1,0 +1,8 @@
+#Reverse Half Pyramid of Numbers
+
+r = int(input("Enter The No Of Rows - "))
+for i in range (r):
+    for j in range (r-i):
+        print(j+1 , end="")
+    print("\n")
+

@@ -1,0 +1,2 @@
+m = "manali"
+print(m)
